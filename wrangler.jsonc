@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "joltfeed",
+  "main": "dist/cloudflare/index.js",
+  "compatibility_date": "2026-05-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "d1_databases": [{"binding":"DB","database_name":"joltfeed-content","migrations_dir":"migrations"}],
+  "r2_buckets": [{"binding":"MEDIA","bucket_name":"joltfeed-media"}]
+}

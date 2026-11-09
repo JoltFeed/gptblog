@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.generated/
+.local/
+.wrangler/
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.log
+drizzle/
